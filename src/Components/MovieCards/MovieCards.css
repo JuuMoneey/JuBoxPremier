@@ -1,0 +1,32 @@
+.movieCard{
+  width: 265px;
+  border-radius: 3px;
+  align-content: center;
+  overflow: hidden;
+}
+
+.movie-cover{
+  width: 250px;
+  height: 400px;
+}
+
+.movie-trailer{
+  width: 245px;
+  height: 150px;
+  border-color: greenyellow;
+}
+
+.movieCardOtherSide{
+  margin-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 250px;
+  height: 400px;
+  color: greenyellow;
+}
+
+.movieInfo{
+  font-size: 12px;
+  font-style: italic;
+} 

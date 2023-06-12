@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+*{
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  background-color: #090a0e;
+  color: whitesmoke;
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.mo{
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header{
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.appTitle{
+  font-size: 35px;
+  color: greenyellow;
+}
+
+.container{
+
+  display: grid;
+  gap: 15px;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.top-movie{
+  min-height: 400px;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+}
+
+.top-movie-content{
+  font-style: italic;
+}
+
+.top-movie-title{
+  font-size: 65px;
+}
+
+.button{
+  background-color: rgb(43, 42, 42);
+  color: greenyellow;
+  border-radius: 3%;
+  border-color: greenyellow;
+}
+
+.searchbar{
+  border-color: greenyellow;
+  border-radius: 6%;
+  border-width: 2px;
 }
