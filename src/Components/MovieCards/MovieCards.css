@@ -20,10 +20,16 @@
   margin-top: 10%;
   display: flex;
   flex-wrap: wrap;
+  align-self: center;
+  align-content: center;
   justify-content: center;
   width: 250px;
   height: 400px;
   color: greenyellow;
+}
+
+.title{
+  font-size: 10px;
 }
 
 .movieInfo{
