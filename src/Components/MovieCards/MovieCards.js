@@ -22,7 +22,7 @@ export default function MovieCards(props){
             // When the mouse leaves the card, the hoveredMovie state is set to false. 
             <div className='movieCardOtherSide'>
                 <h1 className='title'>{props.movie.title}</h1>
-                <p className='releaseDate'>{props.movie.release_date}</p>
+                
                 <p className='movieInfo'>{props.movie.overview}</p>
                     <iframe
                         className='movie-trailer'
